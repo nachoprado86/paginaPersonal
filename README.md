@@ -1,2 +1,2 @@
 # paginaPersonal
-Mi trabajo persona de Nacho Prado
+Mi trabajo personal. Nacho Prado
