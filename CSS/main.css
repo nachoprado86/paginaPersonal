@@ -1,8 +1,12 @@
 * {
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
   box-sizing: border-box;
   font-family: 'Reem Kufi', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
 
 .padre{
@@ -11,31 +15,62 @@ flex-flow: column nowrap;
 }
 /* HEADER */
 .header {
-background: #025464;
+background: url(../imagenes/1portada.jpeg);
+background-position:center;
+background-attachment: contain;
+background-size: cover;
 display: flex;
 flex-flow: column nowrap;
 }
 .menu {
-background: #E8AA42;
+background: rgba(0 0 0 1);
 display: flex;
 flex-flow: row nowrap;
-height: 100px;
+height: 60px;
 align-items: center;
+border-bottom: 1px solid rgba(255, 255, 255, .5 );
 }
 .logo {
-  background: #F8F1F1;
   flex: 1 1 auto;
-  height: 20px;
 }
+.logo a{
+  color: #bbb ;
+  font-size: 30px;
+}
+
+.logo a:hover{
+  color: #343434;
+}
+
+
 .nav{
-  background: #F8F1F1;
+  
   flex: 5 1 auto;
-  height: 20px;
+  
+}
+.nav a{
+  color: #ffff;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 2px;
+}
+.nav a:hover{
+  color: #343434;
 }
 .social{
-  background: #F8F1F1;
+  display: flex;
   flex: 1 1 auto;
-  height: 20px;
+  
+}
+.social a{
+  font-size: 18px;
+  color: #fff;
+  padding: 0 5px;
+}
+
+.social a:hover{
+  color: #343434;
 }
 .texto-principal{
   background: #F8F1F1;
