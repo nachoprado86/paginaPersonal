@@ -1,15 +1,106 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   box-sizing: border-box;
   font-family: 'Reem Kufi', sans-serif;
 }
 
-/* 768px */
-
-@media screen and (min-width: 768px){
-
-#caja {
-background-color: green;
-width: 90%;
+.padre{
+display: flex;
+flex-flow: column nowrap;
 }
+/* HEADER */
+.header {
+background: #025464;
+display: flex;
+flex-flow: column nowrap;
+}
+.menu {
+background: #E8AA42;
+display: flex;
+flex-flow: row nowrap;
+height: 100px;
+align-items: center;
+}
+.logo {
+  background: #F8F1F1;
+  flex: 1 1 auto;
+  height: 20px;
+}
+.nav{
+  background: #F8F1F1;
+  flex: 5 1 auto;
+  height: 20px;
+}
+.social{
+  background: #F8F1F1;
+  flex: 1 1 auto;
+  height: 20px;
+}
+.texto-principal{
+  background: #F8F1F1;
+}
+h1{
+  background: #F8F1F1;
+}
+
+
+
+/* SECTION */
+.section{
+  background: #30A2FF;
+  display: flex;
+  flex-wrap: wrap;
+}
+.articulos {
+  background: #00C4FF;
+  flex: 3 1 auto;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.article {
+  background: #FFE7A0;
+  flex: 1 1 auto;
+}
+.aside {
+  background: #98EECC;
+  flex: 1 1 auto;
+}
+.publicidad{
+  background: #D0F5BE;
+}
+
+
+
+/* FOOTER */
+.footer {
+  background: #D14D72;
+  display: flex;
+  justify-content: center;
+}
+.pie{
+  background: #FEF2F4;
+  width: 300px;
+  
+
+}
+
+/* MOBILE FIRST */
+/* 482px */
+@media screen and (max-width:482px){
+  .section {
+    flex-direction: column;
+  }
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+
+}
+
+/* 768px */
+/* @media screen and (max-width:768px){
+
+} */
+

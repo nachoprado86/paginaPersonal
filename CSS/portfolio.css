@@ -4,3 +4,13 @@
   box-sizing: border-box;
   font-family: 'Reem Kufi', sans-serif;
 }
+
+/* MOBILE FIRST */
+/* 768px */
+@media screen and (min-width:768px){}
+
+/* 992px */
+@media screen and (min-width:992px){}
+
+/* 1200px */
+@media screen and (min-width:1200px){}
