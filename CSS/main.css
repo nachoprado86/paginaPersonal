@@ -2,164 +2,174 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: "Reem Kufi", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
 }
-body{
-  margin: 10px;
+body {
+  margin: 0px;
+  font-size: 0px;
 }
-.padre{
-display: flex;
-flex-flow: column nowrap;
+.padre {
+  display: flex;
+  flex-flow: column nowrap;
 }
+
 /* HEADER */
 .header {
-background: url(../imagenes/1portada.jpeg);
-background-position:center;
-background-attachment: contain;
-background-size: cover;
-display: flex;
-flex-flow: column nowrap;
+  background: url(../imagenes/1portada.jpeg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
 }
 .menu {
-background: rgba(0 0 0 1);
-display: flex;
-flex-flow: row nowrap;
-height: 60px;
-align-items: center;
-border-bottom: 1px solid rgba(255, 255, 255, .5 );
+  display: flex;
+  flex-flow: row nowrap;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
 }
 .logo {
-  flex: 1 1 auto;
+  
 }
-.logo a{
-  color: #bbb ;
+.logo a {
+  color: #fff;
   font-size: 30px;
 }
 
-.logo a:hover{
+.logo a:hover {
   color: #343434;
 }
 
+.nav {
+  display: flex;
 
-.nav{
-  
-  flex: 5 1 auto;
-  
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  justify-content: center;
 }
-.nav a{
-  color: #ffff;
+.nav a {
+  color: #fff;
   font-size: 11px;
   text-transform: uppercase;
   padding: 0 10px;
   letter-spacing: 2px;
 }
-.nav a:hover{
+.nav a:hover {
   color: #343434;
 }
-.social{
+.social {
   display: flex;
-  flex: 1 1 auto;
-  
+  justify-content: flex-end;
 }
-.social a{
+.social a {
   font-size: 18px;
   color: #fff;
   padding: 0 5px;
 }
 
-.social a:hover{
+.social a:hover {
   color: #343434;
 }
-.texto-principal{
-  background: #F8F1F1;
+.texto-principal {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
 }
-h1{
-  background: #F8F1F1;
+h1 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.6;
 }
-
-
 
 /* SECTION */
-.section{
-  background: #30A2FF;
+.section {
+  background: #f7f7f7;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .articulos {
-  background: #00C4FF;
-  /* flex: 3 1 auto; */
+  background: #f7f7f7;
   display: flex;
   flex-flow: wrap;
-  /* height: 300px; */
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .article {
-  background: #FFE7A0;
-  border: 2px solid black;
+  color: #4444;
+  font-size: 13px;
+  letter-spacing: 1px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- padding: 2%;
- gap: 2%;
+  padding: 2%;
+  gap: 2%;
 }
-.imagenes img{
+h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 0px 0 10px 0;
+  color: orangered;
+}
+
+p {
+  font-size: 1.1rem;
+  justify-content: flex-start;
+}
+.imagenes img {
   width: 100%;
 }
-/* .aside {
-  background: #98EECC;
-  flex: 1 1 auto;
-}
-.publicidad{
-  background: #D0F5BE;
-} */
-
-
 
 /* FOOTER */
 .footer {
-  background: #D14D72;
+  background: #6cc3b6;
   display: flex;
   justify-content: center;
-}
-.pie{
-  background: #FEF2F4;
+  align-items: center;
+  color: #fff;
   width: 100%;
+  padding: 2%;
   
-
 }
+.pie p {
+  font-size: 15px;
+}
+
+
+
 
 /* MOBILE FIRST */
-/* 800px */
-/* @media screen and (max-width:800px){
-  .section {
-    flex-direction: column;
-  }
-  .menu {
-    flex-direction: column;
-    height: auto;
-  }
-} */
 
-/* 600px */
-/* @media screen and (max-width:600px){
-  .articulos {
-    flex-direction: column;
-  }
-
-} */
-/* 400px */
-@media only screen and (min-width:400px){
+/* 440px */
+@media only screen and (min-width: 440px) {
   .article {
     width: 45%;
   }
-
 }
 
+/* 768px */
+@media only screen and (min-width: 768px) {
+  .article {
+    width: 25%;
+  }
+}
 
+/* 992px */
+/* @media only screen and (min-width:992px){
+} */
 
+/* 1200px */
+/* @media only screen and (min-width:1200px){
+} */

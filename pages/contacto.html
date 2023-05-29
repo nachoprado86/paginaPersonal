@@ -5,48 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de Contacto de Nacho Prado</title>
+    <script
+    src="https://kit.fontawesome.com/0fe5aaf2cd.js"
+    crossorigin="anonymous"
+  ></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../CSS/contacto.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap" rel="stylesheet">
-
   </head>
   <body>
-   
-    <div class="container-form">
-       <!-- INFORMACIÓN -->
-      <div class="info-form">
-        <h2>¿Hablamos? ^^</h2>
-        <p>Día a día currando a tope. Así que pronto más y mejor.</p>
-        <ul>
-          <li><a href="">+34.615.431.852</a></li>
-          <li><a href="">nacho@marketingfly.es</a></li>
-          <li><a href="">Eibar, Guipúzcoa.</a></li>
-      </ul>
-      </div>
+    <!-- PADRE -->
+    <div class="padre">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="menu">
+          <div class="logo">
+            <a href="index.html"><img src="" alt="" />LogoCorporativo</a>
+          </div>
 
-      <!-- FORMULARIO -->
-      <form action="#" autocomplete="off">
-        <input
-          type="text"
-          name="nombre"
-          placeholder="Ingresa tu nombre"
-          class="campo"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Ingresa tu correo electrónico"
-          class="campo"
-        />
-        <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
-        <input
-          type="submit"
-          name="enviar"
-          value="enviar mensaje"
-          class="btn-enviar"
-        />
-      </form>
+          <!-- MENU -->
+
+          <div class="social">
+            <div>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <!-- __________ -->
+        </div>
+        <div class="nav">
+          <a href=""><i class="fa-solid fa-house"></i>Home</a>
+          <a href=""><i class="fa-brands fa-fly"></i>Biografía</a>
+          <a href=""><i class="fa-solid fa-briefcase"></i>Portolio</a>
+          <a href=""><i class="fa-regular fa-comment"></i>Contacto</a>
+        </div>
+        <div class="texto-principal">
+          <p>
+            “Andaluz universal, amante de la música popular, bético, enamorado
+            de mi profesión, la comunicación, y devorador de nuevas
+            tecnologías”.
+          </p>
+        </div>
+      </header>
+      <div class="container-form">
+        <!-- INFORMACIÓN -->
+        <div class="info-form">
+          <h2>¿Hablamos? ^^</h2>
+          <p>Día a día currando a tope. Así que pronto más y mejor.</p>
+          <ul>
+            <li><a href="">+34.615.431.852</a></li>
+            <li><a href="">nacho@marketingfly.es</a></li>
+            <li><a href="">Eibar, Guipúzcoa.</a></li>
+          </ul>
+        </div>
+
+        <!-- FORMULARIO -->
+        <div class="formulario">
+          <form action="#" autocomplete="off">
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Ingresa tu nombre"
+              class="campo"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Ingresa tu correo electrónico"
+              class="campo"
+            />
+            <textarea
+              name="mensaje"
+              placeholder="Ingresa tu mensaje"
+            ></textarea>
+            <input
+              type="submit"
+              name="enviar"
+              value="enviar mensaje"
+              class="btn-enviar"
+            />
+          </form>
+        </div>
+      </div>
+      <!-- ______________ -->
+      <!-- FOOTER -->
+      <footer class="footer">
+        <nav class="pie">
+          <div><p>Desarrolado por Nacho Prado Mayo 2023</p></div>
+          <div><p>Nacho Prado® todos los derechos reservados</p></div>
+        </nav>
+      </footer>
     </div>
   </body>
 </html>
