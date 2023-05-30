@@ -19,7 +19,7 @@ body {
 
 /* HEADER */
 .header {
-  background: url(../imagenes/1portada.jpeg);
+  background: url(../imagenes/PORTADA\ WEB.jpg);
   background-position: center;
   background-attachment: contain;
   background-size: cover;
@@ -85,7 +85,7 @@ body {
   margin-top: 10px;
 }
 .texto-principal p{
-  color: #fff;
+  color: #000000;
   font-size: 1.4rem;
   font-weight: 200;
   text-align: center;
@@ -125,7 +125,7 @@ body {
 .container-form h2 {
   margin-bottom: 15px;
   font-size: 35px;
-  color: orangered;
+  color: #6cc3b6;
 }
 
 .container-form p {
@@ -210,20 +210,25 @@ textarea {
 /* 768px */
 @media only screen and (min-width: 768px) {
   
-  
   .container-form{
-    height: 100%;
+  width: 100%;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  height: 100%;
+  margin-bottom: 200px;
   }
   
-  
-  
+
   .info-form {
     width: 45%;
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
-    padding: 2%;
+    padding: auto;
     
     
 
@@ -235,6 +240,7 @@ textarea {
     justify-content: center;
     align-items: left;
     flex-direction: column;
+    padding: auto;
     
    
   }
@@ -246,8 +252,3 @@ textarea {
     max-height: 150px;
     margin-right: 5px;
   }
-
-  .footer{
-
-  }
-}

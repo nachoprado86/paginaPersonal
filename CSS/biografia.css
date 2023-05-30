@@ -19,7 +19,7 @@ body {
 
 /* HEADER */
 .header {
-  background: url(../imagenes/1portada.jpeg);
+  background: url(../imagenes/PORTADA\ WEB.jpg);
   background-position: center;
   background-attachment: contain;
   background-size: cover;
@@ -85,7 +85,7 @@ body {
   margin-top: 10px;
 }
 .texto-principal p{
-  color: #fff;
+  color: #000000;
   font-size: 1.4rem;
   font-weight: 200;
   text-align: center;
@@ -99,16 +99,27 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-.trabajos{
-  height: 180px;
+
+.imagen {
+  height: 200px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 20px;
+ 
+ 
+}
+
+.trabajos{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
   margin-top: 10px;
 }
 
 .trabajos h1{
-  color: orangered;
+  color: #6cc3b6;
   font-size: 2.2rem;
   font-weight: 200;
   text-align: center;
@@ -134,17 +145,20 @@ body {
   padding: 2%;
   gap: 2%;
 }
+
 h2 {
   font-size: 1.2rem;
   text-transform: uppercase;
   padding: 0px 0 10px 0;
-  color: orangered;
+  color: #ea940b;
 }
 
 p {
   font-size: 1.1rem;
   justify-content: flex-start;
+  color: #000000;
 }
+
 .imagenes img {
   width: 100%;
 }
@@ -160,11 +174,10 @@ p {
   padding: 2%;
   
 }
+
 .pie p {
   font-size: 15px;
 }
-
-
 
 
 /* MOBILE FIRST */
@@ -176,6 +189,30 @@ p {
     width: 100%;
   }
 
+  .section {
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .imagen {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .trabajos{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+  }
+
 }
 
 /* 768px */
@@ -183,6 +220,18 @@ p {
   .article {
     width: 100%;
   }
-}
+  .imagen {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
 
+  .trabajos{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
